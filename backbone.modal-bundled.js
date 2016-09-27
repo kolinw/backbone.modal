@@ -536,7 +536,7 @@
         });
         if (this.modals.length > 0) {
           lastModal = _.last(this.modals);
-          lastModal.modalEl.addClass("" + lastModal.prefix + "-view--stacked");
+          lastModal.modalEl.addClass("" + lastModal.prefix + "-modal--stacked");
           secondLastModal = this.modals[this.modals.length - 1];
           if (secondLastModal != null) {
             secondLastModal.modalEl.removeClass("" + secondLastModal.prefix + "-modal--stacked-reverse");
